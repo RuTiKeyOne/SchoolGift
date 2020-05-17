@@ -1,0 +1,31 @@
+﻿<Window x:Class="SchoolGift.Math"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SchoolGift"
+        mc:Ignorable="d"
+        WindowStyle="ToolWindow" ResizeMode="NoResize" WindowState="Normal"
+        Background="#dedfe4"
+        Title="Седунова Татьяна Викторовна" Height="450" Width="600">
+    <Grid >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Image HorizontalAlignment="Left" Height="140" Margin="56,32,0,0" VerticalAlignment="Top" Width="161" Source="/NoFound.jpg" Grid.Column="1"/>
+        <TextBlock Text="Седунова Татьяна Викторовна" Height="36" Margin="237,42,29,0" VerticalAlignment="Top" Width="334" FontSize="20" Grid.Column="1"/>
+        <TextBlock Text="Должность : Учитель математики" Grid.Column="1" HorizontalAlignment="Left" Height="29" Margin="237,83,0,0" VerticalAlignment="Top" Width="290"/>
+        <TextBlock Text="Общий стаж : 19 лет" Grid.Column="1" HorizontalAlignment="Left" Height="29" Margin="237,112,0,0" VerticalAlignment="Top" Width="290"/>
+        <TextBlock Text="Категория : 1 категория" Grid.Column="1" HorizontalAlignment="Left" Height="29" Margin="237,141,0,0" VerticalAlignment="Top" Width="290"/>
+        <TextBlock TextWrapping="Wrap" Text="Образование : Высшее, 1998 г. Лесосибирский педагогический институт" Grid.Column="1" HorizontalAlignment="Center" Height="29" Margin="0,188,0,0" VerticalAlignment="Top" Width="490"/>
+        <Label Content="Курсы повышения : " Grid.Column="1" HorizontalAlignment="Left" Height="29" Margin="56,222,0,0" VerticalAlignment="Top" Width="419"/>
+        <TextBlock TextWrapping="Wrap" Text="1. Применение пакета свободного программного обеспечения. 2009 г." Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="56,251,0,0" VerticalAlignment="Top" Width="515"/>
+        <TextBlock TextWrapping="Wrap" Text=" 2. Интерактивная доска на уроках математики. 2010 г." Grid.Column="1" HorizontalAlignment="Left" Height="26" Margin="56,279,0,0" VerticalAlignment="Top" Width="515"/>
+        <TextBlock TextWrapping="Wrap" Text="3. Актуальные вопросы обучения математике в школе в условиях введения ФГОС 2013 г." Grid.Column="1" HorizontalAlignment="Left" Height="28" Margin="56,310,0,0" VerticalAlignment="Top" Width="515"/>
+        <TextBlock TextWrapping="Wrap" Text="4. Содержание и методика преподавания математики в условиях требований к итоговой аттестации в основной и старшей школе." Grid.Column="1" HorizontalAlignment="Left" Height="40" Margin="56,338,0,0" VerticalAlignment="Top" Width="515"/>
+    </Grid>
+</Window>

@@ -1,0 +1,31 @@
+﻿<Window x:Class="SchoolGift.Geog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SchoolGift"
+        mc:Ignorable="d"
+         WindowStyle="ToolWindow" ResizeMode="NoResize" WindowState="Normal"
+        Background="#dedfe4"
+        Title="Клюкина Марина Юрьевна " Height="450" Width="600">
+    <Grid >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Image HorizontalAlignment="Left" Height="140" Margin="56,32,0,0" VerticalAlignment="Top" Width="161" Source="C:\Users\Dart\source\repos\SchoolGift\SchoolGift\NoFound.jpg" Grid.Column="1"/>
+        <TextBlock Text="Клюкина Марина Юрьевна " Height="36" Margin="237,42,29,0" VerticalAlignment="Top" Width="334" FontSize="20" Grid.Column="1"/>
+        <TextBlock Text="Должность : Учитель географии " Grid.Column="1" HorizontalAlignment="Left" Height="29" Margin="237,83,0,0" VerticalAlignment="Top" Width="290"/>
+        <TextBlock Text="Общий стаж : 26 лет" Grid.Column="1" HorizontalAlignment="Left" Height="29" Margin="237,112,0,0" VerticalAlignment="Top" Width="290"/>
+        <TextBlock Text="Категория : Высшая категория" Grid.Column="1" HorizontalAlignment="Left" Height="29" Margin="237,141,0,0" VerticalAlignment="Top" Width="290"/>
+        <TextBlock Text="Образование : Высшее, 1999 г. Красноярский гос.педагогический университет." Grid.Column="1" HorizontalAlignment="Left" Height="29" Margin="56,188,0,0" VerticalAlignment="Top" Width="456"/>
+        <Label Content="Курсы повышения : " Grid.Column="1" HorizontalAlignment="Left" Height="29" Margin="56,222,0,0" VerticalAlignment="Top" Width="419"/>
+        <TextBlock Text="1. Преподавание предметов естественнонаучного цикла в условиях реализации БУП-2004." Grid.Column="1" HorizontalAlignment="Left" Height="29" Margin="56,251,0,0" VerticalAlignment="Top" Width="544"/>
+        <TextBlock Text="2. Видеомонтаж на компьютере средствами программы Adobe Premiere Pro. 2010 г." Grid.Column="1" HorizontalAlignment="Left" Height="29" Margin="56,280,0,0" VerticalAlignment="Top" Width="515"/>
+        <TextBlock Text="3.Преподавание информатики в школе в соответствии с требованиями ФГОС ООО. 2017 г." Grid.Column="1" HorizontalAlignment="Left" Height="29" Margin="56,309,0,0" VerticalAlignment="Top" Width="534"/>
+
+    </Grid>
+</Window>

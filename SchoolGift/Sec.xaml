@@ -1,0 +1,32 @@
+﻿<Window x:Class="SchoolGift.Sec"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SchoolGift"
+        mc:Ignorable="d"
+         WindowStyle="ToolWindow" ResizeMode="NoResize" WindowState="Normal"
+        Background="#dedfe4"
+        Title="Смирнова Ольга Сергеевна" Height="450" Width="600">
+    <Grid >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Image HorizontalAlignment="Left" Height="140" Margin="56,32,0,0" VerticalAlignment="Top" Width="161" Source="/Sec.jpg" Grid.Column="1"/>
+        <TextBlock Text="Смирнова Ольга Сергеевна" Height="36" Margin="237,42,29,0" VerticalAlignment="Top" Width="334" FontSize="20" Grid.Column="1"/>
+        <TextBlock Text="Должность : Преподаватель-организатор ОБЖ" Grid.Column="1" HorizontalAlignment="Left" Height="29" Margin="237,83,0,0" VerticalAlignment="Top" Width="346"/>
+        <TextBlock Text="Общий стаж : 35 лет" Grid.Column="1" HorizontalAlignment="Left" Height="29" Margin="237,112,0,0" VerticalAlignment="Top" Width="290"/>
+        <TextBlock Text="Категория : Высшая категория" Grid.Column="1" HorizontalAlignment="Left" Height="29" Margin="237,141,0,0" VerticalAlignment="Top" Width="290"/>
+        <TextBlock Text="Образование : высшее, 1982 г.  Горно-алтайский гос. Педагогический иснтитут." Grid.Column="1" HorizontalAlignment="Left" Height="29" Margin="56,188,0,0" VerticalAlignment="Top" Width="450"/>
+        <Label Content="Курсы повышения : " Grid.Column="1" HorizontalAlignment="Left" Height="29" Margin="56,222,0,0" VerticalAlignment="Top" Width="419"/>
+        <TextBlock TextWrapping="Wrap" Text="1. Применение свободного программного обеспечения в учебном процессе. 2011." Grid.Column="1" HorizontalAlignment="Left" Height="25" Margin="56,251,0,0" VerticalAlignment="Top" Width="515"/>
+        <TextBlock TextWrapping="Wrap" Text="2. Курсы преподаталей ОБЖ. 2012 г." Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="56,281,0,0" VerticalAlignment="Top" Width="515"/>
+        <TextBlock TextWrapping="Wrap" Text="3. Реализация предмета Основы безопасности жизнедеяткельности в условиях БУП 2004. 2014 г." Grid.Column="1" HorizontalAlignment="Left" Height="39" Margin="56,309,0,0" VerticalAlignment="Top" Width="461"/>
+        <TextBlock TextWrapping="Wrap" Text="4. ФГОС: вопросы и ответы Развитие ресурсов психического и физического здоровья в образвании. 2014 г." Grid.Column="1" HorizontalAlignment="Left" Height="39" Margin="56,348,0,0" VerticalAlignment="Top" Width="461"/>
+
+    </Grid>
+</Window>

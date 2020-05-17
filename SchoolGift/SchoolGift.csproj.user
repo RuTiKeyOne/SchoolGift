@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>C:\Users\Dart\source\repos\SchoolGift\SchoolGift\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Art.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Bio.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Chem.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Cul.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Eng.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Geog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="His.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Inf.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Math.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Phys.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Rus.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Sec.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Tech.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Art.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Bio.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Chem.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Cul.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Eng.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Geog.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="His.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Inf.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Math.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Phys.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Rus.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Sec.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Tech.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

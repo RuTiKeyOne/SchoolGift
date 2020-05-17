@@ -1,0 +1,29 @@
+﻿<Window x:Class="SchoolGift.Tech"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SchoolGift"
+        mc:Ignorable="d"
+        WindowStyle="ToolWindow" ResizeMode="NoResize" WindowState="Normal"
+        Background="#dedfe4"
+        Title="Селенгина Вера  Геннадьевна" Height="450" Width="600">
+    <Grid >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Image HorizontalAlignment="Left" Height="140" Margin="56,32,0,0" VerticalAlignment="Top" Width="161" Source="/Tech.jpg" Grid.Column="1"/>
+        <TextBlock Text="Селенгина Вера  Геннадьевна" Height="36" Margin="237,42,29,0" VerticalAlignment="Top" Width="334" FontSize="20" Grid.Column="1"/>
+        <TextBlock Text="Должность : Учитель трудового обучения" Grid.Column="1" HorizontalAlignment="Left" Height="29" Margin="237,83,0,0" VerticalAlignment="Top" Width="290"/>
+        <TextBlock Text="Общий стаж : 30 лет" Grid.Column="1" HorizontalAlignment="Left" Height="29" Margin="237,112,0,0" VerticalAlignment="Top" Width="290"/>
+        <TextBlock Text="Категория : 1 категория" Grid.Column="1" HorizontalAlignment="Left" Height="29" Margin="237,141,0,0" VerticalAlignment="Top" Width="290"/>
+        <TextBlock TextWrapping="Wrap" Text="Образование : Высшее, 2009 г. ГОУ ВПО Красоярский  гос. Педагогический университет им. В.П.Астафьева " Grid.Column="1" HorizontalAlignment="Left" Height="29" Margin="56,188,0,0" VerticalAlignment="Top" Width="516"/>
+        <Label Content="Курсы повышения : " Grid.Column="1" HorizontalAlignment="Left" Height="29" Margin="56,222,0,0" VerticalAlignment="Top" Width="419"/>
+        <TextBlock TextWrapping="Wrap" Text="1. Методика реализации программ учебного предмета Технология. Ученический проект в технологичесом образовании школьников. 2012г." Grid.Column="1" HorizontalAlignment="Left" Height="41" Margin="56,251,0,0" VerticalAlignment="Top" Width="515"/>
+        <TextBlock TextWrapping="Wrap" Text=" 2. Организация урока с ориентацией на планируемые результаты обучения, 2018г." Grid.Column="1" HorizontalAlignment="Left" Height="48" Margin="56,296,0,0" VerticalAlignment="Top" Width="515"/>
+    </Grid>
+</Window>
