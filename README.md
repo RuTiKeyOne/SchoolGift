@@ -1,3 +1,3 @@
-#School Gift
+# School Gift
 
 My first WPF project.
