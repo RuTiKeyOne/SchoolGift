@@ -1,1 +1,3 @@
-#My first WPF project.
+#School Gift
+
+My first WPF project.
